@@ -1,0 +1,333 @@
+p {
+ color: #424242;
+}
+
+span{
+ color: #F9ED69;
+}
+
+/*******************************CLASS SELECTORS***********************************/
+
+/*-------------Font style--------------*/
+
+.bottom-container, .navbar-brand, .footer-div, .row, .middle-container, .navbar-nav{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.horizontal-content, .wedding-heading, .testimonical-text {
+  font-size: 20px;
+}
+
+.middle-container, .wedding-para {
+  font-size: 15px;
+}
+
+.navbar-brand:hover{
+  color: #FD0054;
+}
+
+/**********************************top-container*************************************/
+.top-container {
+  color: #FBF9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A80038;
+  padding: 8rem;
+  font-weight: 500;
+  height: 500px;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.company-name {
+  font-size: 5rem;
+  animation: companyName 1s ease 0s 1 normal forwards;
+}
+
+.slogan {
+  animation: companyName 1s ease 0s 1 normal forwards;
+}
+
+@keyframes companyName {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/*************************************middle container****************************/
+.middle-container {
+  text-align: center;
+  font-weight: normal;
+  line-height: 2;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #EAEAEA;
+  margin-bottom: 60px;
+  animation: companyName 1s ease 0s 1 normal forwards;
+}
+.horizontal-content{
+  margin-bottom: 20px;
+}
+.horizontal-content-2{
+  margin-bottom: 25px;
+}
+.horizontal-para{
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 2;
+}
+
+.features-link{
+  text-decoration: none;
+  color: black;
+}
+.features-link:hover{
+  color: #FD0054;
+}
+/******************************Image content******************************/
+
+.wedding-image {
+  width: 250px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 40px;
+  transition: transform .2s;
+}
+
+.wedding-image:hover{
+  box-shadow: 5px 5px 10px 1px #000;
+  transform: scale(1.1);
+}
+
+.wedding-heading{
+  font-weight: bold;
+}
+
+.wedding-para{
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 60px;
+}
+.birthday-event-img{
+  height: 167px;
+}
+
+/***********************************************************************************/
+.button-para{
+  text-align: center;
+}
+/*.btn {
+  background: #FD0054;
+  background-image: -webkit-linear-gradient(top, #FD0054, #A80038);
+  background-image: -moz-linear-gradient(top, #FD0054, #A80038);
+  background-image: -ms-linear-gradient(top, #FD0054, #A80038);
+  background-image: -o-linear-gradient(top, #FD0054, #A80038);
+  background-image: linear-gradient(to bottom, #FD0054, #A80038);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #424242;
+  background-image: -webkit-linear-gradient(top, #424242, #3C4048);
+  background-image: -moz-linear-gradient(top, #424242, #3C4048);
+  background-image: -ms-linear-gradient(top, #424242, #3C4048);
+  background-image: -o-linear-gradient(top, #424242, #3C4048);
+  background-image: linear-gradient(to bottom, #424242, #3C4048);
+  color: #ffffff;
+  text-decoration: none;
+}*/
+
+
+
+
+
+/****************************Testimonials section***********************************/
+
+#testimonials {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #3C4048;
+  color: #fff;
+  height: 400px;
+}
+
+.testimonials-para{
+  color: #fff;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.testimonials-heading{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.testimonial-text{
+  font-weight: normal;
+}
+
+.testimonials-comment{
+  color: #fff;
+}
+
+.testimonials-em{
+  font-family: 'Bodoni Moda', serif;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+
+}
+
+/***************************************footer****************************************/
+
+#footer{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #FBF9FA;
+}
+
+.footer-heading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.footer-insta{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.fa-insta{
+  margin-right: 5px;
+}
+
+.footer-insta a{
+  color: #A80038;
+  text-decoration: none;
+ }
+
+ .footer-insta a:hover{
+   color: #FD0054;
+ }
+
+/*******************************Final-Container*************************************/
+#final-container{
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+.final-para{
+  border-radius: 15px;
+  border: 5px ridge #EAEAEA;
+  line-height: 2;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 60px;
+  transition: transform .2s;
+}
+.final-para:hover{
+  border-color: #424242;
+  box-shadow: 5px 5px 10px 1px #000;
+  transform: scale(1.05);
+}
+
+/*********************bottom-container*********************************/
+
+.bottom-container{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.number{
+  cursor: pointer;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.number:hover{
+  color: #FD0054;
+}
+
+.footer-link{
+  margin-top: 3rem;
+  color: #3C4048;
+  font-size: 2.5rem;
+}
+.footer-link:hover{
+  color: #A80038;
+}
+.footer-logo1, .footer-logo2, .footer-logo3, .footer-logo4{
+  margin-right: 20px;
+}
+
+
+/****************************media query*****************************************/
+
+@media screen and (max-width: 420px) {
+  .testimonial-text{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .testimonials-heading{
+    font-size: 30px;
+  }
+}
+/**********************wedding*****************************/
+@media screen and (max-width: 920px)  and (min-width: 700px){
+
+  .wedding-image {
+    width: 200px;
+  }
+  .wedding-heading{
+    font-size: 18px;
+  }
+  .wedding-para{
+    font-size: 14px;
+  }
+}
+/************************************************************/
+@media screen and (max-width: 600px){
+  .wedding-heading{
+    color: #FD0054;
+  }
+
+  .footer-heading{
+    font-size: 1rem;
+  }
+  .footer-insta{
+    font-size: 1rem;
+  }
+
+  .final-para{
+    font-size: 1rem;
+  }
+  .sayhello{
+    font-size: 1.2rem;
+  }
+  .copyright{
+    font-size: 1rem;
+  }
+  .glowing-events{
+    color: #FD0054;
+  }
+}
