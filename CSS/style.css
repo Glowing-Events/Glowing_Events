@@ -261,7 +261,12 @@ span{
   margin-top: 2%;
   margin-bottom: 5%;
 }
-.number:hover{
+.number a{
+  color: #3C4048;
+  text-decoration: none;
+
+}
+.number a:hover{
   color: #FD0054;
 }
 
